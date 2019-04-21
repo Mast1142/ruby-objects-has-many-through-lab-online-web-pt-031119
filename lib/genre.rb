@@ -1,5 +1,5 @@
 class Genre
-  attr_accessor :genre
+  attr_accessor :genre, :name, :songs, :artists
   @@all = []
 
   def initialize(genre)
