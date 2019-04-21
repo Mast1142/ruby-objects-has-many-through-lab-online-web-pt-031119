@@ -6,6 +6,7 @@ class Appointment
     @name = name
     @date = date
     @doctor = doctor
+    @@all << self
   end
 
   def self.all
